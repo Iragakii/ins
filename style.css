@@ -11,7 +11,7 @@ body {
     background-color: #f8f8f8;
 }
 :root{
-    --gradient: linear-gradient(to right,#e2336b,#fcac46 );
+    --gradient: linear-gradient(to right,#FDB7EA,#fcac46 );
 }
 .sidebar {
     position: fixed;
@@ -49,7 +49,7 @@ body {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    border: 2px solid #e2336b;
+    border: 2px solid #FDB7EA;
     margin-left: 8px;
     
 }
@@ -114,7 +114,7 @@ body {
 }
 .menu a:hover,
 .menu .active{
-    color: #e2336b;  
+    color: #FDB7EA;  
 }
 .menu .icon {
     margin-right: 1rem;
@@ -127,7 +127,7 @@ body {
     right: 0;
     width: 2px;
     height: 17px;
-    background:#e2336b ;
+    background:#FDB7EA ;
 }
 
 /* home main */
@@ -212,7 +212,7 @@ body {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    border: 2px solid #e2336b;
+    border: 2px solid #FDB7EA;
     margin-left: 8px;
     
 }
@@ -256,6 +256,10 @@ body {
 .feed-text h2{
     font-size:1rem ;
     margin-right: 1rem;
+    color: #000;
+}
+.feed-text span {
+    color: #000;
 }
 .main-posts{
     display: grid;
@@ -283,7 +287,7 @@ body {
     justify-content: center;
     width: 35px;
     height: 35px;
-    border: 2px solid #e2336b;
+    border: 2px solid #FDB7EA;
     border-radius: 50%;
 }
 .post-img img{
@@ -302,6 +306,7 @@ body {
     font-size: 12px;
     font-weight: 600px;
     margin-left: 5px;
+    color: #000;
 }
 .likes{
     display: flex;
@@ -314,4 +319,5 @@ body {
 .likes span{
     font-size: 14px;
     margin-left: 7px;
+    color: #FDB7EA;
 }
